@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MiddleShop_Tyulenev/MiddleShop_Tyulenev.vcxproj" Id="be9ac9ce-3053-4391-8d94-9fb8b07ca0e4" />
+</Solution>
