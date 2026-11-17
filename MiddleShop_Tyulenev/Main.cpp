@@ -18,6 +18,18 @@ int main()
 
 
 
+	delete[]loginArr;
+	delete[]passArr;
+	delete[]statusArr;
+	delete[]userIdArr;
+
+	if (isStorageCreated)
+	{
+		delete[]idArr;
+		delete[]nameArr;
+		delete[]priceArr;
+		delete[]countArr;
+	}
 
 
 
