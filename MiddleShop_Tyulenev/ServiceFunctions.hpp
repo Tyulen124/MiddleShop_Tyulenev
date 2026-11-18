@@ -26,6 +26,7 @@ void FillArray(ArrType* dynamicArr, ArrType* staticArr, size_t commonSize)
 		dynamicArr[i] = staticArr[i];
 	}
 }
+bool isNotSameName(const std::wstring& chooseName, std::wstring* nameArr,size_t commonSize);
 
 
 
