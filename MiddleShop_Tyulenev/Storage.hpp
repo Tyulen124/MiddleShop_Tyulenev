@@ -1,6 +1,7 @@
 #ifndef _STORAGE_HPP_
 #define _STORAGE_HPP_
-#include "ServiceFunctions.hpp"
+
+#include "Accounts.hpp"
 extern size_t sizeSt;
 extern size_t *idArr;
 extern std::wstring* nameArr;
@@ -20,6 +21,8 @@ void RemoveProduct();
 void ChangePrice();
 void ChangeStorage();
 void AddNewProduct();
+void ChangeProductName();
+void DeleteProduct();
 
 
 
