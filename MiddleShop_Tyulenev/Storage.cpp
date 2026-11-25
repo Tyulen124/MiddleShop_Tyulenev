@@ -710,6 +710,12 @@
 					 // :)
 					 std::wcout << L"\n\nТовар успешно удален\n";
 					 Sleep(1500);
+					 if (sizeSt < 1)
+					 {
+						 std::wcout << L"Склад пуст!\n\n";
+						 system("pause");
+						 return;
+					 }
 					 continue;
 				 }
 				 else
@@ -723,4 +729,10 @@
 
 
 	 }
+ }
+
+ void ChangeStorageLimits()
+ {
+	 std::wcout << "В процессе разработки";
+	 Sleep(1500);
  }

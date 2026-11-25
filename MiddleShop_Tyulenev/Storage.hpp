@@ -23,6 +23,7 @@ void ChangeStorage();
 void AddNewProduct();
 void ChangeProductName();
 void DeleteProduct();
+void ChangeStorageLimits();
 
 
 

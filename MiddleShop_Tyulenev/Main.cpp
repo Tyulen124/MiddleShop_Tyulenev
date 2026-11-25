@@ -13,6 +13,16 @@ int main()
 	Start();
 
 
+	/*
+	CreateSet();
+
+	std::wstring asd[5]{ L"12345",L"asdqwef5",L"1fg4",L"gfdg.45",L"admin" };
+	for (int i = 0; i < 5; i++)
+	{
+		CheckLogin(asd[i]);system("pause");
+	}
+	*/
+
 
 
 
