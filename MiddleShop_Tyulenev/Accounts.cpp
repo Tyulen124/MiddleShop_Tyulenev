@@ -202,7 +202,7 @@ size_t userSize = 3;
 		 }
 		 else
 		 {
-			 std::wcout << L"Слишком мало буквенных символов в пароле. Минимум " << 3 << L"\n\n";
+			 std::wcout << L"Слишком мало буквенных символов в логине. Минимум " << 3 << L"\n\n";
 			 Sleep(2000);
 			 return false;
 		 }
@@ -215,7 +215,7 @@ size_t userSize = 3;
  {
 	 if (pass.size() < minPass || pass.size() > maxPass)
 	 {
-		 std::wcout << L"Ошибка длины логина. Допустимо от " << minPass << L" до " << maxPass << L" символов\n\n";
+		 std::wcout << L"Ошибка длины пароля. Допустимо от " << minPass << L" до " << maxPass << L" символов\n\n";
 		 Sleep(1500);
 		 return false;
 	 }
@@ -233,7 +233,7 @@ size_t userSize = 3;
 				 Sleep(2000);
 				 return false;
 			 }
-			 else if (count < 3 && (login[i] >= L'A' && login[i] <= L'Z') || (login[i] >= L'a' && login[i] <= L'z'))
+			 else if (count < 3 && (pass[i] >= L'A' && pass[i] <= L'Z') || (pass[i] >= L'a' && pass[i] <= L'z'))
 			 {
 				 count++;
 			 }
